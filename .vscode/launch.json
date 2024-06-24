@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flutter - Android",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--no-sound-null-safety"
+            ],
+            "deviceId": "emulator-5554"
+        },
+        {
+            "name": "Flutter - iOS",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "deviceId": "9AC7F961-ADEB-4567-825E-30FB2A5F9B77"
+        },
+        {
+            "name": "Flutter - Chrome",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "deviceId": "chrome",
+            // "flutterMode": "release"
+        }
+    ]
+}
